@@ -1,22 +1,5 @@
 
-// describe("Data-driven tests", () => {
-//   beforeEach(() => {
-//     cy.fixture('data').then((data) => {
-//       cy.wrap(data).as('testData'); // Save the data for use in tests
-//     });
-//   });
 
-//   it('should log in with multiple users', function () {
-//     this.testData.forEach(({ username, password }) => {
-//       cy.visit('/login');
-//       cy.get('#username').type(username);
-//       cy.get('#password').type(password);
-//       cy.get('#loginButton').click();
-//       cy.contains('Welcome').should('be.visible');
-//       cy.get('#logoutButton').click(); // Log out for the next test
-//     });
-//   });
-// });
 describe('My Test', () => {
   it('should log in using fixture data', () => {
     cy.fixture('data').then((data) => {
