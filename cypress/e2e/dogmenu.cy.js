@@ -1,4 +1,4 @@
-describe('Tipalti Dog Test', () => {
+describe('Dog Test', () => {
     beforeEach(() => {
     // Step 1: Navigate to the site
 
